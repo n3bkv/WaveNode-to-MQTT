@@ -1,0 +1,10 @@
+{
+  "MqttHost": "127.0.0.1",
+  "MqttPort": 1883,
+  "MqttUser": "",
+  "MqttPass": "",
+  "BaseTopic": "wavenode",
+  "Retain": true,
+  "DirectMode": true,
+  "UpdateMode": 1
+}

@@ -1,5 +1,5 @@
 {
-  "MqttHost": "127.0.0.1",
+  "MqttHost": "192.168.1.10",
   "MqttPort": 1883,
   "MqttUser": "",
   "MqttPass": "",
@@ -7,4 +7,6 @@
   "Retain": true,
   "DirectMode": true,
   "UpdateMode": 1
+  "PublishMinIntervalMs": 200,
+  "PublishMinDelta": 0.1
 }

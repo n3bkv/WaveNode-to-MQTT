@@ -256,3 +256,11 @@ All metrics are published under the configured **Base Topic** (default: `wavenod
 ## Architecture Overview
 
 ![WaveNode → MQTT Bridge Architecture](docs/architecture.png)
+
+---
+
+## Support This Project
+
+If you find this useful, star ⭐ the repo! It helps others discover it.
+
+---

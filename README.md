@@ -259,6 +259,12 @@ All metrics are published under the configured **Base Topic** (default: `wavenod
 
 ---
 
+## Sample Node-RED Display Flow
+
+See the file node-red-flow.json for a sample Node-RED flow to display sensor SWR.
+
+___
+
 ## Support This Project
 
 If you find this useful, star ⭐ the repo! It helps others discover it.

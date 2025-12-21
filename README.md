@@ -243,6 +243,11 @@ All metrics are published under the configured **Base Topic** (default: `wavenod
 
 - **Dashboard shows stale values**  
   - Consider disabling `Retain` (globally) or remember that fast topics are already non‑retained.
+ 
+- **I need to change my configuarion settings after first run**
+  - To reset your configuration, delete the settings file and restart the program.
+  - Settings are stored at: User\%APPDATA%\WaveNode.Mqtt\config.json
+  - If you do not see the AppData folder in Window Explorer make sure to enable Hidden Files in the View settings
 
 ---
 

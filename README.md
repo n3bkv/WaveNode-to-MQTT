@@ -42,7 +42,7 @@ A small Windows WinForms utility that listens to **WaveNode** power meter messag
 
 ---
 
-##  Installation
+##  Installation (You can also download the already compiled Window program installer on the right side of the page under Releases)
 
 1. Ensure [.NET 8.0 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) is installed.
 2. Clone or download this repository.
@@ -55,17 +55,17 @@ A small Windows WinForms utility that listens to **WaveNode** power meter messag
  dotnet publish -c Release -r win-x64 ^ -p:PublishSingleFile=true -p:SelfContained=true -p:PublishTrimmed=false
 9. You will find the .exe in the /bin/Release/net8.0-windows/win-x64/publish folder
 10. WaveNode.Mqtt.exe` to a folder of your choice.
-11. Run it once – a **setup dialog** appears for MQTT configuration. Tooltips are available to help with configuration settings.
+11. Run it once – a **setup dialog** appears for MQTT configuration. Tooltips are available to help with configuration ings.
 
 
 ---
 
 ## Configuration
 
-Settings are stored at:
+To reset your configuration, delete the settings file and restart the program. Settings are stored at:
 
 ```
-%APPDATA%\WaveNode.Mqtt\config.json
+User\%APPDATA%\WaveNode.Mqtt\config.json
 ```
 
 ### Example `config.json`:
